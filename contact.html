@@ -27,18 +27,12 @@
   </div>
 
 <div class= "hero-text4">
-<form action="mailto:n.holmstedt@outlook.com"
-method="POST"
-enctype="multipart/form-data"
-name="EmailForm">
-    Name:<br>
-    <input type="text" size="19" name="Contact-Name"><br><br>
-    Email:<br>
-    <input type="email" name="Contact-Email"><br><br> 
-    Message:<br> 
-    <textarea name="Contact-Message" rows="6″ cols="20″>
-    </textarea><br><br> 
-    <button type="submit" value="Submit">Send</button>
+<form class="contact-form" action="contactform.php" method="POST">
+      <input type="text" name="name" placeholder="Full Name">
+      <input type="text" name="email" placeholder="Your Email">
+      <input type="text" name="Subject" placeholder="Subject">
+      <textarea name="message" placeholder= "Message"></textarea>
+  <button type="submit" name="submit">Send Mail</button>
 </form>
 </div>
 
